@@ -1,0 +1,1 @@
+module.exports.HelloWorld = require('./helloworld.model');

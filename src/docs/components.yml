@@ -1,0 +1,36 @@
+components:
+  schemas:
+    HelloWorld:
+      type: object
+      properties:
+        message:
+          type: string
+      example:
+        message: Hello World
+    Error:
+      type: object
+      properties:
+        code:
+          type: number
+        message:
+          type: string
+
+  responses:
+    HelloWorld:
+      description: HelloWorld object
+      content:
+        application/json:
+          schema:
+            $ref: '#/components/schemas/HelloWorld'
+          example:
+            code: 200
+            message: Hello World
+    NotFound:
+      description: Not found
+      content:
+        application/json:
+          schema:
+            $ref: '#/components/schemas/Error'
+          example:
+            code: 404
+            message: Not found

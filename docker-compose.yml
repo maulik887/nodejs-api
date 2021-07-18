@@ -1,0 +1,18 @@
+version: '3'
+
+services:
+  node-app:
+    build: .
+    image: node-app
+    environment:
+      - MONGODB_URL=mongodb://mongodb:27017/node-boilerplate
+    ports:
+      - '3000:3000'
+    volumes:
+      - .:/usr/src/node-app
+    networks:
+      - node-network
+
+networks:
+  node-network:
+    driver: bridge
