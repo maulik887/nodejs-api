@@ -77,7 +77,7 @@ curl --location --request GET 'http://localhost:3000/' --header 'Accept: applica
 
 ```
 
-Or you can visit above url in browser or use [Postman](https://www.postman.com/) for testing these apis.
+Or you can visit above url in browser or use [Postman](https://www.postman.com/) for testing these apis. Once you have Postman on your local machine, you can use [postman collection](https://github.com/maulik887/nodejs-api/blob/main/Hello World Api.postman_collection.json) to get the list of apis.
 
 ## Logging
 
