@@ -8,6 +8,14 @@ Install Yarn from [here](https://classic.yarnpkg.com/en/docs/install)
 
 ## Running locally
 
+Once both the prequisites are installed, go and clone this repository on your local machine.
+
+```bash
+git clone https://github.com/maulik887/nodejs-api.git
+```
+
+Go inside the `nodejs-api` folder and proceed with dependency installation.
+
 Install the dependencies:
 
 ```bash
